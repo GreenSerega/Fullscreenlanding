@@ -9,11 +9,11 @@ body{
   line-height: 1.6;
 }
 .showcase {
+  height: 100vh;
+  color: #926239;
   background-image: url(./../images/beach.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  color: #926239;
   text-transform: capitalize;
 }
 .heading {
@@ -22,10 +22,16 @@ body{
   font-size: 50px;
   line-height: 1.2;
   padding-top: 30%;
+  text-overflow:ellipsis;
+}
+.one-line{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .title{
   font-size: 20px;
-  margin: 20px;
+  margin: 15px;
 }
 .button {
   margin:10px;
@@ -60,5 +66,4 @@ body{
   box-sizing: border-box;
   vertical-align: top;
   padding:0px;
-  
 }
