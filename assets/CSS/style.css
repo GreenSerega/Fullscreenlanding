@@ -1,6 +1,6 @@
 *{
-  margin: 0px;
   padding: 0px;
+  margin: 0px;
 }
 body{
   text-align: center;
@@ -25,21 +25,32 @@ body{
 }
 .title{
   font-size: 20px;
+  margin: 20px;
 }
 .button {
+  margin:10px;
   font-size: 20px;
   padding:10px 20px;
   border-radius: 10px;
   text-decoration: none;
   border: #926239 1px solid;
-  color: #926239;;
+  color: #926239;
+  
 }
 .button:hover{
   background-color:grey;
 }
 
-.article {
+.section{
   padding: 20px;
+  background-color: #926239;
+  color: #fff;
+}
+.bg-light{
+  background-color: #f4f4f4;
+  color: #926239;
+}
+.bg-dark{
   background-color: #926239;
   color: #fff;
 }
@@ -48,4 +59,6 @@ body{
   display: inline-block;
   box-sizing: border-box;
   vertical-align: top;
+  padding:0px;
+  
 }
