@@ -22,7 +22,6 @@ body{
   font-size: 50px;
   line-height: 1.2;
   padding-top: 30%;
-  text-overflow:ellipsis;
 }
 
 .title{
@@ -30,7 +29,8 @@ body{
   margin: 15px;
 }
 .button {
-  display: block;
+  max-width: 120px;
+  display: inline-block;
   margin:10px;
   font-size: 20px;
   padding:10px 20px;
@@ -38,7 +38,6 @@ body{
   text-decoration: none;
   border: #926239 1px solid;
   color: #926239;
-  
 }
 .button:hover{
   background-color:grey;
