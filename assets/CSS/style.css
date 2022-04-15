@@ -24,16 +24,13 @@ body{
   padding-top: 30%;
   text-overflow:ellipsis;
 }
-.one-line{
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+
 .title{
   font-size: 20px;
   margin: 15px;
 }
 .button {
+  display: block;
   margin:10px;
   font-size: 20px;
   padding:10px 20px;
@@ -46,7 +43,11 @@ body{
 .button:hover{
   background-color:grey;
 }
-
+.one-line{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .section{
   padding: 20px;
   background-color: #926239;
